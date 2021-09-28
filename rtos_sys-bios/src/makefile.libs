@@ -1,6 +1,6 @@
 #
 # This file was generated based on the configuration script:
-#     C:\Users\citiz\OneDrive\문서\GitHub\rtos_tms32f280045\rtos_sys-bios\app.cfg
+#     C:\ccs_workspace\Projects\rtos_f280045\app.cfg
 #
 # This makefile may be included in other makefiles that need to build
 # the libraries containing the compiled source files generated as
@@ -14,7 +14,7 @@
 #
 # The absolute path to the generated source directory (at the time the
 # sources were generated) is:
-#    C:\Users\citiz\OneDrive\문서\GitHub\rtos_tms32f280045\rtos_sys-bios\src
+#    C:\ccs_workspace\Projects\rtos_f280045\src
 #
 GEN_SRC_DIR ?= ../src
 
