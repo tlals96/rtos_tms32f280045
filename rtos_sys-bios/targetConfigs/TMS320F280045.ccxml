@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configurations XML_version="1.2" id="configurations_0">
+<configuration XML_version="1.2" id="Texas Instruments XDS2xx USB Onboard Debug Probe_0">
+        <instance XML_version="1.2" desc="Texas Instruments XDS2xx USB Onboard Debug Probe_0" href="connections/TIXDS2XXUSB_onboard_Connection.xml" id="Texas Instruments XDS2xx USB Onboard Debug Probe_0" xml="TIXDS2XXUSB_onboard_Connection.xml" xmlpath="connections"/>
+        <connection XML_version="1.2" id="Texas Instruments XDS2xx USB Onboard Debug Probe_0">
+            <instance XML_version="1.2" href="drivers/tixds560icepick_c.xml" id="drivers" xml="tixds560icepick_c.xml" xmlpath="drivers"/>
+            <instance XML_version="1.2" href="drivers/tixds560c28x.xml" id="drivers" xml="tixds560c28x.xml" xmlpath="drivers"/>
+            <instance XML_version="1.2" href="drivers/tixds560cs_child.xml" id="drivers" xml="tixds560cs_child.xml" xmlpath="drivers"/>
+            <platform XML_version="1.2" id="platform_0">
+                <instance XML_version="1.2" desc="TMS320F280045_0" href="devices/f280045.xml" id="TMS320F280045_0" xml="f280045.xml" xmlpath="devices"/>
+            </platform>
+        </connection>
+    </configuration>
+</configurations>
