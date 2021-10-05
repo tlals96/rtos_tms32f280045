@@ -1,6 +1,6 @@
 #
 # This file was generated based on the configuration script:
-#     C:\ccs_workspace\rtos_semaphore_exam\app.cfg
+#     C:\ccs_workspace\rtos_task_semaphore\app.cfg
 #
 # This makefile may be included in other makefiles that need to build
 # the libraries containing the compiled source files generated as
@@ -14,7 +14,7 @@
 #
 # The absolute path to the generated source directory (at the time the
 # sources were generated) is:
-#    C:\ccs_workspace\rtos_semaphore_exam\src
+#    C:\ccs_workspace\rtos_task_semaphore\src
 #
 GEN_SRC_DIR ?= ../src
 
