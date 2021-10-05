@@ -15,34 +15,32 @@ Compiler version : TI v20.2.1.LTS
 
 Compiled in CCS v9.3.0, SYS/BIOS v6.83.00.18
 
-## Examples
- `ti\ ..\ bios_6_76_04_02\resources\tiTargetExamples\28xSpecificExamples` 
- 
- Import the project you want
+## 사용 예제
+ ti\ ..\ bios_6_76_04_02\resources\tiTargetExamples\28xSpecificExamples 중 원하는 프로젝트를 Import
 
-_Refer to [Resource Explorer][resource-explorer] for more examples and instructions_
+_더 많은 예제와 사용법은 [Resource Explorer][resource-explorer]를 참고하세요._
 
-## Development environment setting
+## 개발 환경 설정
 
-`Build, composite` in `CCS 9.3.0` in Windows 10 development environment
+Windows 10 개발환경의 `CCS 9.3.0`에서 `build, compile`
 
-### How to set Linker command file, Compiler version
+### Linker command file 및 Compiler version setting 방법
 ![](./images/ccs_general_setting.png)
 
-Choose according to the processor (`General > Project > Tool-chain > Linker command file`)
+Processor에 맞춰 선택 (`General > Project > Tool-chain > Linker command file`)
 
-Select the compiler version you use (`General > Project > Tool-chain > Compiler version`)
+사용하는 Compiler version 선택 (`General > Project > Tool-chain > Compiler version`)
 
-### How to set the build command
+### Build command setting  방법
 ![](./images/ccs_build_setting.png)
 
-Write down the number of logical processors on the development PC `Build > Builder > Build Command`
+개발 PC CPU의 논리프로세서 개수 만큼 -j 뒤에 기입해주면 됨 `Build > Builder > Build Command`
 > ${CCS_UTILS_DIR}/bin/gmake -k `-j 12`
 
-## Update history
+## 업데이트 내역
 
 * 0.0.1
-    * Revise : Document update
+    * 수정: 문서 업데이트
 
 
 <!-- Markdown link & img dfn's -->
