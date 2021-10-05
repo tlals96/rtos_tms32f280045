@@ -36,7 +36,7 @@ Select the compiler version you use (`General > Project > Tool-chain > Compiler 
 ### How to set the build command
 ![](./images/ccs_build_setting.png)
 
-Write down the number of logical processors on the development PC `Build > Builder > Build Command`
+Write down the number of logical processors on the development PC (`Build > Builder > Build Command`)
 > ${CCS_UTILS_DIR}/bin/gmake -k `-j 12`
 
 ## Update history
