@@ -7,11 +7,12 @@
 	<deviceEndianness value="little"/>
 	<codegenToolVersion value="18.12.8.LTS"/>
 	<isElfFormat value="false"/>
-	<connection value="common/targetdb/connections/TIXDS2XXUSB_onboard_Connection.xml"/>
+	<connection value="common/targetdb/connections/TIXDS2XXUSB_Connection.xml"/>
 	<linkerCommandFile value="TMS320F280045.cmd"/>
 	<rts value="libc.a"/>
 	<createSlaveProjects value=""/>
 	<templateProperties value="id=com.ti.rtsc.SYSBIOS.example_46,type=rtsc,products=com.ti.rtsc.SYSBIOS,target=ti.targets.C28_float,platform=ti.platforms.tms320x28:$DeviceId$,buildProfile=release,isHybrid=true,configuroOptions=--compileOptions &quot;-g&quot;"/>
 	<filesToOpen value=""/>
 	<isTargetManual value="false"/>
+	<origin value="C:/ccs_workspace/Projects/rtos_device_driver_exam"/>
 </projectOptions>
