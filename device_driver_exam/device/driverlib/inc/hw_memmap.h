@@ -49,8 +49,8 @@
 // peripherals.
 //
 //*****************************************************************************
-#define M0_RAM_BASE               0x00000000U
-#define M1_RAM_BASE               0x00000400U
+// #define M0_RAM_BASE               0x00000000U
+// #define M1_RAM_BASE               0x00000400U
 #define ADCARESULT_BASE           0x00000B00U
 #define ADCBRESULT_BASE           0x00000B20U
 #define ADCCRESULT_BASE           0x00000B40U
